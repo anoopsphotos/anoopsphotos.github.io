@@ -80,8 +80,22 @@
                 });
             })
         }
+
     }
     galleryMasonry();
+
+
+
+    $(document).ready(
+    function () {
+        $('[data-filter=".fav"]').on('click',
+            function () {
+                alert('clicked');
+            }
+        );
+        $('[data-filter=".fav"]').click()
+    }
+);
 	
 	/*----------------------------------------------------*/
     /*  Simple LightBox js
