@@ -396,6 +396,7 @@ button:focus {
   min-height: 400px;
 }
 
+/*UPDATED BELOW TO FIT BANNER IMAGE*/
 .banner_area .banner_inner .overlay {
   background: url(../img/banner/banner.jpg) no-repeat scroll center center;
   background-size: 1300px 650px;
@@ -520,17 +521,18 @@ button:focus {
   margin-bottom: 80px;
 }
 
-.isotope_fillter .gallery_filter {
+/*CHANGED GALLERY FILTER TO BE 2 SO THAT IT GOES TO NEW LINK WHEN CLICKED ON*/
+.isotope_fillter .gallery_filter_2 {
   text-align: center;
 }
 
-.isotope_fillter .gallery_filter li {
+.isotope_fillter .gallery_filter_2 li {
   display: inline-block;
   border-left: 1px solid #eeeeee;
   margin-right: -4px;
 }
 
-.isotope_fillter .gallery_filter li a {
+.isotope_fillter .gallery_filter_2 li a {
   font-size: 12px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -542,12 +544,18 @@ button:focus {
   margin: 0px;
 }
 
-.isotope_fillter .gallery_filter li:last-child {
+.isotope_fillter .gallery_filter_2 li:last-child {
   border-right: 1px solid #eeeeee;
   margin-right: 0px;
 }
 
-.isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
+/*.isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
+  background: #fcdc00;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+*/
+.isotope_fillter .gallery_filter_2 li:hover a, .isotope_fillter .gallery_filter_2 li.active a {
   background: #fcdc00;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
