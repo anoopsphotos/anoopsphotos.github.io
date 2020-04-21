@@ -306,7 +306,7 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .overlay {
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/banner.jpg) no-repeat center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -329,6 +329,10 @@ button:focus {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   margin-bottom: 20px;
+}
+
+.home_banner_area .banner_inner .banner_content h5 {
+  color: black;
 }
 
 .home_banner_area .banner_inner .banner_content p {
@@ -355,7 +359,7 @@ button:focus {
 }
 
 .blog_banner .banner_inner .overlay {
-  background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
   opacity: .5;
 }
 
@@ -394,6 +398,7 @@ button:focus {
 
 .banner_area .banner_inner .overlay {
   background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  background-size: 1300px 650px;
   position: absolute;
   left: 0;
   right: 0;
